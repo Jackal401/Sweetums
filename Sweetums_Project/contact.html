@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Jaydan Fleming">
+		<title>Sweetums-Contact</title>
+		<meta name="description" content="Here you can contact Sweetums directly through phone or email. We want you to feel like part of the Sweetums family, so if you have any questions or concerns about our services or products, we will get back to you and help however you can.">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="style.css">
+		<script src="https://kit.fontawesome.com/82aa3a75c0.js" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<h1>Sweetums</h1>
+			<a href="index.html"><img src="Images/sweetums_logo.png" id="logo" alt="Sweetums Logo"></a>
+			
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="sweets.html">Sweets</a></li>
+					<li><a id="currentPage" href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<main id="main">
+			<article id="article1">	
+				<img src="Images/sweetumsOffice.jpg" id="office" alt="structure of the Sweetums company building with location listed as Pawnee, Indiana">
+				<h2>Contact the Sweetums Family here!</h2>
+				<p>Welcome to the Sweetums Contact page! Here you will find a form to fill our that will allow you to get in touch with our serices. We are open to speaking with you about any questions you have about our products or services through phone or email. Fill our the form when you're ready and we will be with you shortly.</p>
+				<article>
+					<h3 id="contactFORM">Contact</h3>
+					<form>
+						<label for="fname">First Name</label>
+						<input type="text" id="fname" name="fname">
+									
+						<label for="lname">Last Name</label>
+						<input type="text" id="lname" name="lname">
+									
+						<label for="mail">Email Address</label>
+						<input type="email" id="mail" name="mail" required>
+									
+						<label for="phoneNumber">Phone Number</label>
+						<input type="tel" id="phoneNumber" name="phoneNumber" required>
+						
+								
+						<fieldset>
+							<legend>Contact Preferences</legend>
+							
+							<label for="radioPhone">Phone</label>
+							<input type="radio" id="radioPhone" name="radioAnswer" value="radioPhone" required>
+								
+							<label for="radioEmail">Email</label>
+							<input type="radio" id="radioEmail" name="radioAnswer" value="radioEmail" required>
+						</fieldset>
+						
+						<label for="comments">Comments</label>
+						<textarea name="comments" id="comments">
+						</textarea>
+							
+						<section id="inputButtons">
+							<h4 class="remove">Buttons</h4>
+							<input type="submit" value="Submit">
+							<input type="reset" value="Reset">
+						</section>
+					</form>
+				</article>
+			</article>
+			<article id="article2">
+				<h2 class="remove">Article2</h2>
+				<article id="explore">
+					<h3 id="siteExplore">Site Exploration</h3>
+					<section id="container">
+						<h4 class="remove">Container</h4>
+						<section id="sweetums">
+							<h5 class="remove">Sweetums</h5>
+							<a href="index.html"><img src="Images/sweetums.jpg" id="sweetumsIMG" alt="a poster featuring the Sweetums logo and slogan"></a>
+							<p>Learn more about the beginning days of Sweetums and discover how it has changed over the years.</p>
+						</section>
+						<section id="energyBars">
+							<h5 class="remove">Energy Bars</h5>
+							<a href="sweets.html"><img src="Images/nutriYumBar.jpg" alt="a package containing candy, labeled as 'NutriYum Energy Bars'" id="energyBarIMG"></a>
+							<p>Here at Sweetums, we offer a variety of delicious treats for our customers to enjoy. Learn more about our products and discover their health benefits.</p>
+						</section>
+						<section id="contactUS">
+							<h5 class="remove">Contact</h5>
+							<a href="contact.html"><img src="Images/contact.jpg" alt="a message that says 'contact us' that is hovered over a picture of a family" id="contact"></a>
+							<p>Have any questions about our products? Come to our Contact page where you can quickly get in touch with us through phone or email.</p>
+						</section>
+					</section>
+				</article>
+			</article>
+			<article id="article3">
+				<h2 class="remove">Article 3</h2>
+				<article id="biography">
+					<h3 class="remove">Biography</h3>
+					<section>
+						<img src="Images/founder.jpg" id="founder" alt="Nick Newport, Sr., the former owner and founder of Sweetums">
+						<h4>Founder's Biography</h4>
+						<p>Meet the founder of Sweetums, Nick Newport, Sr. When he was in charge of Sweetums, instead of using corn syrup to make candy, he used it to fatten cows so that they would provide more meat for consumers.</p>
+					</section>
+					<section id="ownerBio">
+						<img src="Images/owner.jpg" id="owner" alt="Nick Newport, Jr., the current owner of Sweetums, with his dog named Shoelace">
+						<h4>Owner's Biography</h4>
+						<p>Meet the current owner of Sweetums, and relative to the founder, Nick Newport, Jr. Under his direction, Sweetums has increased relations between them and consumers through the selling of candy and soda products made from corn syrup.</p>
+					</section>
+				</article>
+			</article>
+		</main>
+		<footer id="contactFooter">
+			<h2 id="find">Find us at</h2>
+			<section id="center">
+				<h3 class="remove">Icons</h3>
+				<a href="#"><i class="fab fa-pinterest fa-3x"></i></a>
+				<a href="#"><i class="fab fa-facebook fa-3x"></i></a>
+				<a href="#"><i class="fab fa-instagram-square fa-3x"></i></a>
+			</section>
+			<address id="phoneAddress">
+				1234 East Street, Pawnee, IN 12345
+				<a href="tel:(555)-987-6543">555-987-6543</a>
+			</address>
+			<address id="webAddress">
+				1234 East Street, Pawnee, IN 12345 <br>
+				555-987-6543
+			</address>
+			<p id="educational">For Educational Purposes Only</p>
+		</footer>
+	</body>
+</html>

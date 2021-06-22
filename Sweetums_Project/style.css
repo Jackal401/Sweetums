@@ -1,0 +1,857 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header /*Global Style*/{
+	background-color: #49527E;
+	margin-bottom: 1.5em;
+}
+
+h1 /*Global Style*/ {
+	font-family: 'Caveat Brush', cursive;
+	text-align: center;
+	color: #F7BDBF;
+	font-size: 50px;
+	margin-top: 0;
+	padding-top: 0.25em;
+	margin-bottom: 0;
+}
+
+img /*Global Style*/{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 5px 5px #aaa;
+}
+
+#logo /*Global Style*/{
+	width: 9.375em;
+	height: 8.6875em;
+	box-shadow: none;
+	filter: drop-shadow(0.25em 0.25em 0.25em #000000);
+}
+
+nav /*Global Style*/{
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+nav ul /*Global Style*/{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 35px;
+}
+
+nav li /*Global Style*/{
+	display: inline-block;
+	padding-right: 0.15em;
+	padding-left: 0.15em;
+}
+
+nav a /*Global Style*/{
+	text-decoration: none;
+	color: #F7BDBF;
+	font-family: 'Caveat Brush', cursive;
+}
+
+#currentPage /*Global Style*/{
+	background-color: #F7BDBF;
+	color: #49527E;
+	padding: 0em 0.2em 0em 0.2em;
+	box-shadow: 5px 5px 10px black;
+}
+
+h2 /*Global Style*/{
+	padding-top: 0.5em;
+	font-family: 'Caveat Brush', cursive;
+	font-size: 30px;
+	text-align: center;
+}
+
+p/*Global Style*/{
+	padding: 1em;
+	font-family: Montserrat, sans-serif;
+	line-height: 1.3;
+	color: #222;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+h3 /*Global Style*/{
+	font-family: 'Caveat Brush', cursive;
+	font-size: 27px;
+	text-align: center;
+}
+
+#explore /*Global Style*/{
+	background-color: #FDEC9A;
+	margin-bottom: -2.5em;
+	margin-top: 0.5em;
+	padding-top: 0.5em;
+}
+
+#siteExplore /*Global Style*/{
+	padding-top: 0.5em;
+	padding-bottom: 0.25em;
+	color: #49527E;
+}
+
+.remove /*Global Style*/{
+	display: none;
+}
+
+#sweetumsIMG /*Global Style*/{
+	width: 14.0625em;
+	height: 17.875em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#energyBarIMG /*Global Style*/{
+	width: 14.0625em;
+	height: 6.1875em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#contactUS /*Global Style*/{
+	padding-bottom: 1em;
+}
+
+#contact /*Global Style*/{
+	width: 14.0625em;
+	height: 9.375em;
+	margin-top: 1em;
+}
+
+footer /*Global Style*/{
+	background-color: #49527E;
+	padding-bottom: 0;
+	margin-top: 1.5em;
+	padding-bottom: 1em;
+	line-height: 1.3;
+}
+
+#find /*Global Style*/{
+	color: #F7BDBF;
+}
+
+footer h2 /*Global Style*/{
+	margin-bottom: 0em;
+	font-size: 30px;
+	padding-top: 0.5em;
+	padding-bottom: 0.25em;
+}
+
+footer section /*Global Style*/{
+	padding-bottom: 1em;
+}
+
+#center /*Global Style*/{
+	text-align: center;
+}
+
+footer p /*Global Style*/{
+	color: white;
+	text-align: center;
+	font-size: 0.75em;
+	padding: 0em;
+	font-family: Montserrat, sans-serif;
+}
+
+footer a /*Global Style*/{
+	color: white;
+}
+
+#webAddress /*Global Style*/{
+	display: none;
+}
+
+footer address /*Global Style*/{
+	text-align: center;
+	color: white;
+	font-size: 1.25em;
+}
+
+footer address a /*Global Style*/{
+	display: block;
+	text-align: center;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+}
+
+#educational /*Global Style*/{
+	font-style: italic;
+	padding-bottom: 1em;
+}
+
+#office /*Home and Contact Style*/{
+	width: 18.75em; 
+	height: 10.5625em;
+	margin-bottom: 0.5em;
+}
+
+#hard img /*Sweets Style*/{
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+
+#lollipop /*Sweets Style*/{
+	width: 16.375em;
+	height: 10.9375em;
+}
+
+#jollyRancher /*Sweets Style*/{
+	width: 7.125em;
+	height: 10.9375em;
+}
+
+#candyCanes /*Sweets Style*/{
+	width: 7.3125em;
+	height: 10.9375em;
+}
+
+#chocolate /*Sweets Style*/{
+	padding-top: 1em;
+}
+
+#chocolate img /*Sweets Style*/{
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+
+#butterfinger /*Sweets Style*/{
+	width: 18.75em;
+	height: 5.4375em;
+}
+
+#oreo /*Sweets Style*/{
+	width: 17.4375em;
+	height: 10.9375em;
+}
+
+#snickers /*Sweets Style*/{
+	width: 18.75em;
+	height: 6.375em;
+}
+
+#healthy /*Sweets Style*/{
+	padding-top: 1em;
+}
+
+#healthy img /*Sweets Style*/{
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+
+#candyBar /*Sweets Style*/{
+	width: 18.75em;
+	height: 8.25em;
+}
+
+#frooties /*Sweets Style*/{
+	width: 5.3125em;
+	height: 12.5em;
+}
+
+#fruitCandy /*Sweets Style*/{
+	width: 19.4375em;
+	height: 10.9375em;
+}
+
+#contactFORM /*Contact Style*/{
+	padding-bottom: 1em;
+}
+
+form /*Contact Style*/{
+	font-size: 1.5em;
+	text-align: center;
+}
+
+label /*Contact Style*/{
+	font-family: 'Caveat Brush', cursive;
+}
+
+input /*Contact Style*/{
+	display: block;
+	margin: 0 auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+input[type=text] /*Contact Style*/{
+	width: 12.5em;
+	border: 3px solid #000000;
+	font-size: 1em;
+	box-shadow: 5px 5px 5px #aaa;
+}
+
+input[type=email]/*Contact Style*/ {
+	width: 12.5em;
+	border: 3px solid #000000;
+	font-size: 1em;
+	box-shadow: 5px 5px 5px #aaa;
+}
+
+input[type=tel] /*Contact Style*/{
+	width: 12.5em;
+	border: 3px solid #000000;
+	font-size: 1em;
+	box-shadow: 5px 5px 5px #aaa;
+	
+}
+
+fieldset /*Contact Style*/{
+	border: none;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	padding: 0;
+	font-family: 'Caveat Brush', cursive;
+}
+
+legend /*Contact Style*/{
+	margin-bottom: 1em;
+}
+
+fieldset label /*Contact Style*/{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+	
+fieldset input /*Contact Style*/{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+input[type=radio]/*Contact Style*/ {
+	width: 2em;
+	height: 2em;
+	display: inline;
+}
+
+#comments /*Contact Style*/{
+	border: 3px solid #000000;
+	width: 24em;
+	font-size: 0.65em;
+	height: 15em;
+	box-shadow: 5px 5px 5px #aaa;
+	display: block;
+	margin: 0 auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+input[type=submit]/*Contact Style*/ {
+	background-color: #49527E;
+	font-size: 1em;
+	color: white;
+	padding: 1em;
+	margin-right: 2em;
+	box-shadow: 5px 5px 5px #aaa;
+	display: inline;
+	font-family: 'Caveat Brush', cursive;
+}
+
+input[type=reset] /*Contact Style*/{
+	background-color: #49527E;
+	font-size: 1em;
+	color: white;
+	padding: 1em;
+	box-shadow: 5px 5px 5px #aaa;
+	font-family: 'Caveat Brush', cursive;
+	display: inline;
+}
+
+#biography /*Contact Style*/{
+	margin-top: 4.5em;
+}
+
+h4 /*Contact Style*/{
+	font-family: 'Caveat Brush', cursive;
+	font-size: 24px;
+	text-align: center;
+}
+
+#founder /*Contact Style*/{
+	width: 15.625em;
+	height: 15.625em;
+	margin-bottom: 2em;
+}
+
+#biography p /*Contact Style*/{
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+#owner /*Contact Style*/{
+	width: 15.625em;
+	height: 14.375em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+@media screen and (min-width: 768px) {
+	header /*Global Style*/{
+		display: grid;
+		grid-template-columns: 0.4fr 1fr 1.5fr;
+		align-items: center;
+	}
+	
+	#logo /*Global Style*/{
+		grid-row: 1/2;
+		grid-column: 1/2;
+		width: 9.375em;
+		height: 8.6875em;
+		margin-top: 1.5em;
+		margin-bottom: 1.5em;
+		margin-left: 0.5em;
+	}
+	
+	h1 /*Global Style*/{
+		grid-row: 1/2;
+		grid-column: 2/3;
+		font-size: 55px;
+		justify-self: start;
+		padding-left: 0.25em;
+	}
+	
+	nav ul /*Global Style*/{
+		font-size: 35px;
+	}
+	
+	nav li /*Global Style*/{
+		padding-left: 0.3em;
+		padding-right: 0.3em;
+	}
+	
+	#currentPage /*Global Style*/{
+		padding: 0.1em 0.2em 0.1em 0.2em;
+	}
+	
+	h2 /*Global Style*/{
+		font-size: 40px;
+	}
+	
+	p /*Global Style*/{
+		padding: 1em 3em 1em 3em;
+	}
+	
+	h3 /*Global Style*/{
+		font-size: 35px;
+	}
+	
+	#container /*Global Style*/{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		max-width: 768px;
+		margin: 0 auto;
+	}
+	
+	#sweetumsIMG /*Global Style*/{
+		width: 20.3125em;
+		height: 25.8125em;
+	}
+	
+	#energyBars /*Global Style*/{
+		margin-top: 17em;
+	}
+	
+	#energyBarIMG /*Global Style*/{
+		width: 20.3125em;
+		height: 8.9375em;
+	}
+	
+	#contact /*Global Style*/{
+		width: 20.3125em;
+		height: 13.5em;
+	}
+	
+	footer /*Global Style*/{
+		margin-top: 2.5em;
+	}
+	
+	footer h2 /*Global Style*/{
+		margin-bottom: 0;
+		font-size: 40px;
+	}
+	
+	footer p /*Global Style*/{
+		text-align: center;
+		padding: 0;
+	}
+	
+	#phoneAddress /*Global Style*/{
+		display: none;
+	}
+	
+	#webAddress /*Global Style*/{
+		display: block;
+		line-height: 1.5;
+		font-size: 1.5em;
+	}
+	
+	footer address a /*Global Style*/{
+		display: block;
+		text-align: center;
+	}
+	
+	#office /*Home and Contact Style*/{
+		width: 46.875em; 
+		height: 26.375em;
+	}
+	
+	#hard /*Sweets Style*/{
+		max-width: 768px;
+		margin: 0 auto;
+	}
+	
+	.treats /*Sweets Style*/{
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+	
+	#hard1 /*Sweets Style*/{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	#hard1 section /*Sweets Style*/{
+		align-self: center;
+		padding: 0;
+		padding-right: 1em;
+		grid-row: 1/2;
+		grid-column: 2/3;
+	}
+	
+	#hard2 /*Sweets Style*/{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	#hard2 section /*Sweets Style*/{
+		align-self: center;
+		padding: 0;
+		padding-right: 1em;
+	}
+	
+	#hard3 /*Sweets Style*/{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	#hard3 section /*Sweets Style*/{
+		align-self: center;
+		padding: 0;
+		padding-right: 1em;
+	}
+	
+	#chocolate /*Sweets Style*/{
+		max-width: 768px;
+		margin: 0 auto;
+	}
+	
+	#chocolate1 /*Sweets Style*/{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	#chocolate1 section /*Sweets Style*/{
+		align-self: center;
+		padding: 0;
+		padding-right: 1em;
+	}
+	
+	#chocolate2 /*Sweets Style*/{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	#chocolate2 section /*Sweets Style*/{
+		align-self: center;
+		padding: 0;
+		padding-right: 1em;
+	}
+	
+	#chocolate3 /*Sweets Style*/{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	#chocolate3 section /*Sweets Style*/{
+		align-self: center;
+		padding: 0;
+		padding-right: 1em;
+	}
+	
+	#healthy /*Sweets Style*/{
+		max-width: 768px;
+		margin: 0 auto;
+	}
+	
+	#healthy1 /*Sweets Style*/{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	#healthy1 section /*Sweets Style*/{
+		align-self: center;
+		padding: 0;
+		padding-right: 1em;
+	}
+	
+	#healthy2 /*Sweets Style*/{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	#healthy2 section /*Sweets Style*/{
+		align-self: center;
+		padding: 0;
+		padding-right: 1em;
+	}
+	
+	#healthy3 /*Sweets Style*/{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	#healthy3 section /*Sweets Style*/{
+		align-self: center;
+		padding: 0;
+		padding-right: 1em;
+	}
+	
+	form /*Contact Style*/{
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		font-family: Montserrat, sans-serif;
+		max-width: 700px;
+		margin: 0 auto;
+	}
+	
+	form section /*Contact Style*/{
+		grid-row: 7/8;
+		grid-column: 2/3;
+	}
+	
+	label /*Contact Style*/{
+		align-self: center;
+		text-align: right;
+	}
+	
+	input /*Contact Style*/{
+		max-width: 415px;
+		margin-left: 2em;
+	}
+	
+	fieldset /*Contact Style*/{
+		grid-row: 5/6;
+		grid-column: 1/3;
+	}
+	
+	fieldset label /*Contact Style*/{
+		margin-left: 3em;
+	}
+	
+	legend /*Contact Style*/{
+		padding-right: 17em;
+		padding-top: 1em;
+	}
+	
+	#comments /*Contact Style*/{
+		height: 12.5em;
+		max-width: 415px;
+		margin-left: 3.75em;
+	}
+	
+	#inputButtons /*Contact Style*/{
+		max-width: 365px;
+	}
+	
+	#article3 /*Contact Style*/{
+		max-width: 700px;
+		margin: 0 auto;
+	}
+	
+	#biography h4 /*Contact Style*/{
+		margin: 0;
+		max-width: 475px;
+	}
+	
+	#biography p /*Contact Style*/{
+		margin: 0;
+		max-width: 475px;
+	}
+	
+	#founder /*Contact Style*/{
+		float: right;
+		margin: 0;
+		margin-right: 2em;
+		margin-left: 10em;
+	}
+	
+	#ownerBio /*Contact Style*/{
+		padding-top: 1em;
+	}
+	
+	#owner /*Contact Style*/{
+		float: right;
+		margin-right: 2em;
+		margin-left: 10em;
+	}
+}
+
+@media screen and (min-width: 1366px) {
+	header /*Global Style*/{
+		grid-template-columns: 0.4fr 1.75fr 1.5fr;
+	}
+	
+	h1 /*Global Style*/{
+		justify-self: start;
+		font-size: 70px;
+	}
+	
+	nav ul /*Global Style*/{
+		font-size: 45px;
+	}
+	
+	nav li /*Global Style*/{
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+	}
+	
+	#container /*Global Style*/{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	
+	#contactUS /*Global Style*/{
+		margin-top: 13.25em;
+	}
+	
+	#webAddress /*Global Style*/{
+		display: block;
+		line-height: 1.5;
+		font-size: 1.5em;
+	}
+	
+	footer p /*Global Style*/{
+		font-size: 0.75em;
+	}
+	
+	#hard /*Sweets Style*/{
+		max-width: 1366px;
+	}
+	
+	#chocolate /*Sweets Style*/{
+		max-width: 1366px;
+	}
+	
+	#healthy /*Sweets Style*/{
+		max-width: 1366px;
+	}
+	
+	#main /*Contact Style*/{
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		max-width: 2000px;
+		margin: 0 auto;
+	}
+	
+	#article1 /*Contact Style*/{
+		grid-row: 1/2;
+		grid-column: 1/2;
+		max-width: 1780px;
+		margin: 0 auto;
+	}
+	
+	#article2 /*Contact Style*/{
+		grid-row: 2/3;
+		grid-column: 1/3;
+		max-width: 2000px;
+	}
+	
+	fieldset label /*Contact Style*/{
+		margin-left: 4em;
+	}
+	
+	#comments /*Contact Style*/{
+		height: 15em;
+	}
+	
+	#container /*Contact Style*/{
+		max-width: 1400px;
+		margin: 0 auto;
+	}
+	
+	#article3 h4 /*Contact Style*/{
+		max-width: 700px;
+	}
+	
+	#article3 p /*Contact Style*/{
+		margin: 0 auto;
+	}
+	
+	#biography /*Contact Style*/{
+		margin-top: 0em;
+	}
+	
+	#founder /*Contact Style*/{
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 2em;
+	}
+	
+	#owner /*Contact Style*/{
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 2em;
+	}
+}
